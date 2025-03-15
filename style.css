@@ -26,10 +26,7 @@ a{
 
 
 }
-img{
-    height: 50px;
-    width: auto;
-} 
+
 .rightheaderlink{
     display: flex;
     flex-direction: row;
@@ -37,4 +34,29 @@ img{
     align-items: center;
     color: white;
     gap: 30px;
+}
+
+.intro{
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    height: 280px;
+    justify-content: space-around;
+    align-items: center;
+}
+.introone{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+.intropic img{
+    height: 240px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
